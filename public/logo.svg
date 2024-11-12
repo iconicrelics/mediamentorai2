@@ -1,0 +1,8 @@
+<content><?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="256" cy="256" r="256" fill="#0066FF"/>
+  <path d="M350 190L256 130L162 190V310L256 370L350 310V190Z" fill="white"/>
+  <path d="M256 130L162 190L256 250L350 190L256 130Z" fill="#E6E6E6"/>
+  <path d="M162 190V310L256 370V250L162 190Z" fill="#CCCCCC"/>
+  <path d="M350 190V310L256 370V250L350 190Z" fill="#B3B3B3"/>
+</svg></content>

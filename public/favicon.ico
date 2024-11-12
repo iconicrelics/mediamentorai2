@@ -1,0 +1,1 @@
+<command>curl -o public/favicon.ico https://raw.githubusercontent.com/your-repo/media-mentor-ai/main/favicon.ico</command>

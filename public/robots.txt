@@ -1,0 +1,63 @@
+# robots.txt for Media Mentor AI
+
+User-agent: *
+Allow: /
+
+# Main Pages
+Allow: /about
+Allow: /services
+Allow: /contact
+
+# Service Pages
+Allow: /video-services/
+Allow: /audio-services/
+Allow: /image-services/
+Allow: /content-services/
+Allow: /analytics-services/
+Allow: /automation-services/
+
+# Sitemaps
+Sitemap: https://mediamentorai.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin*
+Disallow: /admin/*
+Disallow: /blog*
+Disallow: /blog/*
+Disallow: /private/
+Disallow: /api/
+Disallow: /login/
+Disallow: /logout/
+Disallow: /dashboard/
+
+# Additional Security
+Disallow: /*?*token=
+Disallow: /*?*key=
+Disallow: /*?*auth=
+Disallow: /*?*password=
+Disallow: /*?*admin=
+
+# Clean parameters
+Allow: /*?page=*
+Allow: /*?category=*
+Allow: /*?tag=*
+Disallow: /*?*query=
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Crawl-delay for all bots
+Crawl-delay: 10
+
+# Host
+Host: https://mediamentorai.com
+
+# Additional SEO-friendly directives
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.ico
+
+# Updated: 2024-03-19

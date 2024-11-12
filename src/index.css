@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Quill Editor Styles */
+.ql-container {
+  font-size: 16px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.ql-editor {
+  background: white;
+  color: black;
+  min-height: 400px; /* Adjusted min-height */
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.ql-toolbar {
+  background: white;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.ql-container {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  height: calc(100% - 42px); /* Adjusted height */
+}
+
+/* Font Families */
+.ql-font-arial {
+  font-family: Arial, sans-serif;
+}
+
+.ql-font-times-new-roman {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.ql-font-georgia {
+  font-family: Georgia, serif;
+}
+
+.ql-font-helvetica {
+  font-family: Helvetica, sans-serif;
+}
+
+.ql-font-verdana {
+  font-family: Verdana, sans-serif;
+}
+
+/* Preview Styles */
+.blog-preview {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+}
+
+.blog-preview h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.blog-preview h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.875rem;
+}
+
+.blog-preview h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.blog-preview p {
+  margin-bottom: 1.25rem;
+}
+
+.blog-preview ul, .blog-preview ol {
+  margin-left: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.blog-preview a {
+  color: #a855f7;
+  text-decoration: underline;
+}
+
+.blog-preview img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
